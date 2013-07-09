@@ -1,0 +1,41 @@
+@CHARSET "ISO-8859-1";
+#nav-container {
+    margin-top:20px;
+    line-height:40px;
+    float:right;
+}
+
+nav#login {
+    margin-top:80px;
+    float:right;
+    margin-right:10px;
+}
+
+#login p {
+    margin:0;    
+    cursor:pointer;
+    background-image:url('../img/open.png');    
+}
+
+#login p.close {
+    background-image:url('../img/close.png');
+}
+
+#login-form {
+	  position:absolute;
+    z-index:999;
+    background-color:#fff;
+    border:solid 1px rgb(220,220,220);
+    padding:12px;
+    width:150px;
+    box-shadow:1px 1px 4px rgb(220,220,220);
+    margin-top:10px;
+    float:right;
+    display:none;
+}
+
+#aftlogin{
+	margin-top:90px;
+	float:right;
+	word-spacing:10px;
+}
